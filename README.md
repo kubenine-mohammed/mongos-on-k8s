@@ -1,8 +1,6 @@
 # MongoDB on Kubernetes — Architecture & Cost Proposal
 
-The customer is running MongoDB on Atlas, needs to scale to 2-5 TB of sharded data, and wants reliable backups with point-in-time recovery (PITR) — but Atlas at that scale is getting expensive. This repo is our research and proposal for moving them to a self-managed MongoDB cluster on Kubernetes, and what it would save them.
-
-
+The customer is running MongoDB on Atlas, needs to scale to 2-5 TB of sharded data, and wants reliable backups with point-in-time recovery (PITR) - but Atlas at that scale is getting expensive. This repo is our research and proposal for moving them to a self-managed MongoDB cluster on Kubernetes, and what it would save them.
 
 ## The short version
 
@@ -22,7 +20,6 @@ The customer is running MongoDB on Atlas, needs to scale to 2-5 TB of sharded da
 | [docs/architecture.md](docs/architecture.md)                         | Why Percona, the sharded cluster design (with diagram), sizing for 2 TB and 5 TB, high availability, backup/PITR mechanics, and a brief look at security and monitoring |
 | [docs/cost-comparison.md](docs/cost-comparison.md)                   | Atlas vs self-hosted cost breakdown for both scale scenarios, and why the gap is so large                                                                               |
 | [docs/cost_model.py](docs/cost_model.py)                             | The actual calculator behind those numbers — rerun it with real inputs once we have them                                                                                |
-| [docs/migration-plan.md](docs/migration-plan.md)                     | Phased rollout plan and timeline, starting November                                                                                                                     |
 | [docs/risks-and-open-questions.md](docs/risks-and-open-questions.md) | What could go wrong, and the specific questions we need answered by the customer                                                                                        |
 | [proposal/customer-proposal.md](proposal/customer-proposal.md)       | The condensed, client-facing version of all of the above                                                                                                                |
 | [research-notes/sources.md](research-notes/sources.md)               | Every source used, so claims can be double-checked or refreshed later                                                                                                   |
