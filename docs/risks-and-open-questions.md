@@ -24,4 +24,4 @@ These are the specific things that would let us replace estimates with real numb
 7. **Timeline confirmation** — is November still the confirmed start date, and are there any hard deadlines (e.g. an Atlas contract renewal date) driving the schedule?
 
 ---
-Back to [README](../README.md) · Previous: [Migration plan](migration-plan.md)
+Back to [README](../README.md) · Previous: [Cost comparison](cost-comparison.md)
